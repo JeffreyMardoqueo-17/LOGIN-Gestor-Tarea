@@ -13,7 +13,7 @@ Este proyecto es la parte frontend de un gestor de tareas desarrollado con HTML 
 - **Login:** Página de inicio de sesión para los usuarios (No funcionalida ).
 - **Diseño responsive:** La aplicación está diseñada para adaptarse a diferentes tamaños de pantalla.
 - Asi se ve:
-![image](assets/36db9396-e824-4499-8956-9b299a09c58c.png)
+![image](![image](https://github.com/JeffreyMardoqueo-17/LOGIN-Gestor-Tarea/assets/126411958/af1077c6-6694-41a7-b705-e42d0ae1584e))
 
 
 ## Uso
