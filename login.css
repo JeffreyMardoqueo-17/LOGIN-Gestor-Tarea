@@ -198,13 +198,12 @@ body {
     align-items: center;
 }
 
-.crear img {
-    margin-right: 10px;
-    /* Espacio entre la imagen y el texto */
+.logo {
+    display: none; /* Ocultar el logo por defecto */
 }
 
+/* Estilos para cuando el tamaño de la pantalla sea igual o menor a 768px (modo celular) */
 @media only screen and (max-width: 768px) {
-
     body {
         background-image: url('./LadoDerecho.svg');
         /* Ruta de la imagen de fondo */
@@ -229,19 +228,22 @@ body {
     }
 
     .lado_izquierdo {
+        opacity: 1;
         order: 2;
         /* Cambiar el orden para que aparezca debajo del lado derecho */
         padding-top: 0;
         background-color: #fffffffd;
+        width: 300px;
+        transition: all 0.5s ease; /* Transición de 0.5 segundos para todos los cambios */
     }
 
     .lado_izquierdo button {
-        width: 70%;
+        width: 65%;
         font-size: 15px;
     }
 
     .lado_izquierdo input {
-        width:100%;
+        width: 90%;
         margin-bottom: 10px;
         padding: 5px;
         height: 40px;
@@ -259,7 +261,24 @@ body {
         display: none;
         /* Ocultar la imagen en modo celular */
     }
-    .crear{
+
+    .crear {
         font-size: 12px;
+    }
+
+    .lado_izquierdo p {
+        font-size: 12px;
+    }
+    .lado_izquierdo h1{
+        margin-top: 0;
+    }
+    .logo {
+        display: block; /* Mostrar el logo en modo celular */
+        margin-top: 20px; /* Espacio entre el logo y el título */
+        margin-bottom: 20px; /* Espacio entre el logo y el resto del contenido */
+        width: 150px;
+        margin-top: 20px;
+        margin-bottom: 0;
+        transition: all 0.5s ease; /* Transición de 0.5 segundos para todos los cambios */
     }
 }
